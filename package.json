@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "deploy": "cd typescript && npm run deploy && cd ../ && cd angular2-jspm && npm run deploy"
+  }
+}
