@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "test": "rm -rf ./test && mkdir ./test && cd ./test && cat ../index.js | node && jspm install",
+    "deploy": "rm -rf ./deploy && mkdir deploy && cp index.* ./deploy && surge -p ./deploy -d angular2-jspm.surge.sh"
+  }
+}
